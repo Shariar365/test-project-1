@@ -4,7 +4,7 @@
 
 Submitted by: Asm Shariar Chowdhury 
 
-Time spent: 15-20 hours spent in total
+Time spent: 12-15 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/awake-plume-inspiration
 
