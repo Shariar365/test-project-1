@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Light and memory sound game</h1>    
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing start button.
+    </p>        
+    
+    <span id="Round">Round 0 of 6 </span> 
+    
+    <span id="count">15</span> <span id="Seconds">seconds</span> <br><br>
+    
+    
+    <button id="startBtn" onclick="startGame() ; startTimer(); roundcount();" >
+      Start
+    </button>
+    <button id="stopBtn" onclick="stopGame()" class="hidden" >
+      stop
+    </button>
+    <audio id="camera" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2Fcamera_click.wav?v=1615365785487" ></audio>
+    <audio id="cranking" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2Fcranking_1.wav?v=1615365793365" ></audio>
+    <audio id="shuffle" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2Fshuffle_cards.wav?v=1615365797439" ></audio>
+    <audio id="focus" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2Fcamera_focus.wav?v=1615428557341" ></audio>
+    <audio id="cream" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2Fcartoon006.mp3?v=1615594796697" ></audio>
+    <audio id="wine" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2Fcartoon007.mp3?v=1615594811996" ></audio>
+    
+    
+    <div id="gameButtonArea">
+      <button id="gamebutton1" onclick="guess(1); playAudio1()" onmousedown="playMyTone(1)" onmouseup="stopTone()" ><img class="bugs" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2FBugs_Bunny.svg.png?v=1614991023851" alt="bugs" width="125" height="125" /></button>
+      <button id="gamebutton2" onclick="guess(2); playAudio2()" onmousedown="playMyTone(2)" onmouseup="stopTone()" ><img class="daffy" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2F1200px-Daffy_Duck.svg.png?v=1614991029444" alt="daffy" width="125" height="125"/></button>
+      <button id="gamebutton3" onclick="guess(3); playAudio3()" onmousedown="playMyTone(3)" onmouseup="stopTone()" ><img class="marvin" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2F1200px-Marvin_the_Martian.svg.png?v=1614991033205" alt="marvin" width="125" height="125"/></button>
+      <button id="gamebutton4" onclick="guess(4); playAudio4()" onmousedown="playMyTone(4)" onmouseup="stopTone()" ><img class="sylvester" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2F1200px-Sylvester_the_Cat.svg.png?v=1614991037055" alt="cat" width="125" height="125"/></button>
+      <button id="gamebutton5" onclick="guess(5); playAudio5()" onmousedown="playMyTone(5)" onmouseup="stopTone()" ><img class="tas" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2F1200px-Taz-Looney_Tunes.svg.png?v=1614991043132" alt="tas" width="125" height="125"/></button>
+      <button id="gamebutton6" onclick="guess(6); playAudio6()" onmousedown="playMyTone(6)" onmouseup="stopTone()" ><img class="porky" src="https://cdn.glitch.com/b34cbdb8-3b48-4586-8b6d-ccdb2643859e%2FPorky_Pig.svg.png?v=1614991050694" alt="pork" width="125" height="125"/></button>
+      
+    </div>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

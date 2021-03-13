@@ -1,0 +1,120 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color:slategrey;
+  color: white;
+}
+
+h1 {
+  font-style: verdana, arial, sans-serif;
+ 
+}
+
+h2{
+  font-size:20px;
+  
+}
+
+#Round {
+    float: right;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:150px;
+  height:150px;
+  margin:2px;
+}
+.hidden {
+  display: none;
+}
+#gamebutton1 {
+    background: lightgreen;
+}
+#gamebutton2 {
+    background: lightblue;
+}
+#gamebutton3 {
+    background: pink;
+}
+#gamebutton4 {
+    background: lightyellow;
+}
+#gamebutton5 {
+    background: grey;
+}
+#gamebutton6 {
+    background: orange;
+}
+#gamebutton1:active, #gamebutton1.lit{
+    background:green;
+}
+#gamebutton2:active, #gamebutton2.lit {
+    background:blue;
+}
+#gamebutton3:active, #gamebutton3.lit {
+    background:red;
+}
+#gamebutton4:active, #gamebutton4.lit {
+    background:yellow;
+}
+#gamebutton5:active, #gamebutton5.lit {
+    background:black;
+}
+#gamebutton6:active, #gamebutton6.lit {
+    background:darkred;
+}
+img.bugs {
+  display: none;
+}
+
+#gamebutton1:active img.bugs{
+  display: block;
+}
+img.daffy {
+  display: none;
+}
+
+#gamebutton2:active img.daffy{
+  display: block;
+}
+img.marvin {
+  display: none;
+}
+
+#gamebutton3:active img.marvin{
+  display: block;
+}
+img.sylvester {
+  display: none;
+}
+
+#gamebutton4:active img.sylvester{
+  display: block;
+}
+img.tas {
+  display: none;
+}
+
+#gamebutton5:active img.tas{
+  display: block;
+}
+img.porky {
+  display: none;
+}
+
+#gamebutton6:active img.porky{
+  display: block;
+}
+
+
+
