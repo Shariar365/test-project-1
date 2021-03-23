@@ -44,8 +44,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](https://imgur.com/k6gJzm2.gif)
-![](https://imgur.com/T3EGuwO.gif)
+<img src="https://github.com/Shariar365/test-project-1/blob/main/Screen-Recording-2021-03-22-at-1.gif?raw=true" width=200><br>
 
 
 ## Reflection Questions
