@@ -46,7 +46,6 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 ![](https://imgur.com/k6gJzm2.gif)
 ![](https://imgur.com/T3EGuwO.gif)
-![hippo](https://imgur.com/k6gJzm2.gif)
 
 
 ## Reflection Questions
