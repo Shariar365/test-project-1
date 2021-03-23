@@ -46,6 +46,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 ![](https://imgur.com/k6gJzm2.gif)
 ![](https://imgur.com/T3EGuwO.gif)
+<img src="https://imgur.com/k6gJzm2.gif" width="40" height="40" />
+<img src="https://imgur.com/T3EGuwO.gif" width="40" height="40" />
 
 
 ## Reflection Questions
