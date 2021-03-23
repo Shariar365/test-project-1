@@ -154,7 +154,7 @@ function startTimer(){
     timeIntervalUp = setInterval(function(){countTimer()}, 1000);
     }
     function countTimer() {
-        document.getElementById("count").innerHTML = "Time Remaining: " + secondsDown;
+        document.getElementById("count").innerHTML = "Time Remaining: " + secondsDown + " seconds";
             secondsDown--;
      
             if (secondsDown == -2 ) {
@@ -206,8 +206,7 @@ function playAudio5() {
 function playAudio6() {
   document.getElementById("wine").play();
 }
-            
-        
+                    
 function loseGame1(){
   alert("you have 1 chance remaining");
 }

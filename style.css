@@ -12,6 +12,7 @@ h1 {
  
 }
 
+
 h2{
   font-size:20px;
   
@@ -23,16 +24,17 @@ h2{
     margin-bottom: 10px;
 }
 
-
-button {
-  padding: 10px;
-  border-radius: 10px;
+#startBtn>button{
+  position:relative;
+  font: 40px;
+  top:20px;
 }
 
 #gameButtonArea > button {
   width:150px;
   height:150px;
   margin:2px;
+  top:20px;
 }
 .hidden {
   display: none;
@@ -116,5 +118,37 @@ img.porky {
   display: block;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
 
+body {
+   
+   font-family: 'Codystar';
+   background: darkblue;
+   background-image: url('data:image/svg+xml,%3Csvg width="42" height="44" viewBox="0 0 42 44" xmlns="http://www.w3.org/2000/svg"%3E%3Cg id="Page-1" fill="none" fill-rule="evenodd"%3E%3Cg id="brick-wall" fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
 
+.neons {
+   margin-top: 1rem;
+   
+}
+
+.neons p {
+  font-size: 1rem;
+  
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+     from {
+      color: #fff;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  }
+  
+  to {
+     color: gray;
+    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
+}
