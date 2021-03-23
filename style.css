@@ -30,6 +30,15 @@ h2{
   top:20px;
 }
 
+button{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: grey;
+}
+
 #gameButtonArea > button {
   width:150px;
   height:150px;
