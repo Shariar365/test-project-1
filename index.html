@@ -13,16 +13,23 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>  
-  <body>
     <h1>Light and memory sound game</h1>    
-    <p>
-      Welcome to the game! Repeat back the pattern by pressing start button.
-    </p>        
+    
+    <div class="container">
+   <div class="row">
+      <div class="neons col-12">
+         <p><em> Welcome to the game! Repeat back the pattern by pressing start button.</em></p>
+      </div>
+   </div>
+</div>
+    
+           
+    
+     <body>
     
     <span id="Round">Round 0 of 6 </span> 
     
-    <span id="count">15</span> <span id="Seconds">seconds</span> <br><br>
-    
+    <span id="count"></span> <span id="Seconds"></span> <br><br>
     
     <button id="startBtn" onclick="startGame() ; startTimer(); roundcount();" >
       Start

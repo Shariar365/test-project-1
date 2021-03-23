@@ -37,12 +37,15 @@ The following **additional** features are implemented:
 - [x] Displaying an alert when a mistake has been made and a chance decreases
 - [x] Displaying how much time is left for the player to make a guess
 - [x] Displaying how many rounds are there and which round is the player on
+- [x] A custom image is used as the backgounrd for the game
+- [x] The p tag has a flicking animation. 
+- [x] There is pressing effect implemented when the mouse hovers over the start/stop button
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](https://imgur.com/tREN00a.gif)
-![](https://imgur.com/aM1Rf30.gif)
+![](https://imgur.com/k6gJzm2.gif)
+![](https://imgur.com/T3EGuwO.gif)
 
 
 ## Reflection Questions
