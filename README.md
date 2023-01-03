@@ -6,6 +6,8 @@ Submitted by: Asm Shariar Chowdhury
 
 Time spent: 12-15 hours spent in total
 
+Link to game: https://awake-plume-inspiration.glitch.me/
+
 Link to project: https://glitch.com/edit/#!/awake-plume-inspiration
 
 ## Required Functionality
